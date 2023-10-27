@@ -20,3 +20,8 @@ variable "bucket_name" {
   default     = "siva-bucket-888"
 }
 
+variable "acl" {
+description = "The Acl for S3 bucket"
+  type        = string
+  default     = "private"
+}
