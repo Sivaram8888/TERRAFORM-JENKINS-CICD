@@ -1,6 +1,6 @@
 #create s3 bucket
 resource "aws_s3_bucket" "mybucket" {
-  bucket = var.bucketname
+  bucket = var.siva-bucket-888
 }
 
 resource "aws_s3_bucket_ownership_controls" "example" {
