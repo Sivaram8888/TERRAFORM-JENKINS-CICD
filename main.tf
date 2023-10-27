@@ -9,10 +9,6 @@ resource "aws_instance" "Ajay" {
   }
 }
 
-resource "aws_s3_bucket" "mybucket" {
-  bucket = var.siva-bucket-888
-}
-
 resource "aws_security_group" "ec2_security_group" {
   name        = "ec2 security group"
   description = "allow access on ports 80 and 22 and 443"
